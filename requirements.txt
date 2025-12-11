@@ -1,0 +1,10 @@
+# Data Manipulation and Web Scraping
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Machine Learning and AI Search Components
+scikit-learn>=1.3.0          # สำหรับ Intent Classification
+tensorflow>=2.14.0           # สำหรับโมเดลภาษา (ถ้าใช้ Thai BERT)
+transformers>=4.35.0         # สำหรับการทำ Semantic Search Embeddings (Thai BERT/WangchanBERTa)
