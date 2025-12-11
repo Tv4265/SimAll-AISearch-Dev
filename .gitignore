@@ -1,0 +1,18 @@
+# Python Environment
+.venv
+venv
+__pycache__
+
+# IDE/Editor Files
+.vscode/
+.idea/
+
+# Data and Models - VERY IMPORTANT
+data/raw/           # ไม่ต้องเก็บข้อมูลดิบ
+data/models/*.pkl   # โมเดลขนาดใหญ่มักจะถูก Re-generate ได้
+
+# Output Files
+*.log
+*.csv
+*.zip
+!data/processed/*.csv # ยกเว้นไฟล์ CSV ที่ผ่านการประมวลผลแล้ว (ถ้าต้องการให้เก็บ)
